@@ -1,0 +1,47 @@
+.booklist {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ align-content: baseline;
+ justify-content: center;
+  height: 100vh;
+ overflow: scroll;
+}
+
+
+.newbooks {
+ list-style: none;
+ flex: 0 1 0;
+ text-align: center;
+ padding: 10px;
+}
+
+#bookbox {
+ position: static;
+ margin-right: 10px;
+ height: 220px;
+}
+
+prm-search-bar {
+ padding-bottom: 225px;
+}
+
+.header > prm-search-bar:nth-child(3) > prm-search-bar-after:nth-child(3) {
+ position: absolute;
+ width: 95%;
+ padding-top: 10px;
+}
+
+html {
+ overflow: hidden;
+}
+
+.centered {
+ height: 200px;
+}
+
+.newbooks > a {
+ font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+ font-size: 15px;
+ color: rgb(58, 58, 58);
+}

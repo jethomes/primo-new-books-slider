@@ -1,0 +1,65 @@
+
+.newbooks {
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+}
+
+#bookbox {
+  position: static;
+  margin-right: 10px;
+  height: 220px;
+}
+
+prm-search-bar {
+  padding-bottom: 225px;
+}
+
+.header>prm-search-bar:nth-child(3)>prm-search-bar-after:nth-child(3) {
+  position: absolute;
+  width: 95%;
+  padding-top: 10px;
+}
+
+html {
+  overflow: hidden;
+}
+
+.centered {
+  height: 170px;
+}
+
+.newbooks>a {
+  font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: rgb(58, 58, 58);
+}
+
+
+.tns-controls button[data-controls="previous"] {
+  float: left;
+}
+
+.tns-controls button[data-controls="next"] {
+  float: right;
+}
+
+.tns-controls button {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: white;
+  border: none;
+}
+
+.tns-controls button:hover {
+  background-color: lightgray
+}
+
+.tns-controls button:active {
+  background-color: white;
+
+}

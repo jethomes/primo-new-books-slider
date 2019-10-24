@@ -1,0 +1,29 @@
+/* New books tweaks */
+
+#Content {
+  width: 100%;
+}
+
+#bookbox {
+  height: 200px;
+}
+
+
+.header > prm-search-bar:nth-child(3) > prm-search-bar-after:nth-child(3) {
+  display: block;
+  position: absolute;
+  width: 98%;
+}
+
+prm-search-bar {
+  /* padding-bottom: 58.5px; */
+  padding-bottom: 220px;
+}
+
+.__xs object#bookbox {
+	display: none;
+}
+
+.__sm object#bookbox {
+	display: none;
+}

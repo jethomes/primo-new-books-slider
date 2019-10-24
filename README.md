@@ -1,5 +1,5 @@
 # primo-new-books-slider
-Code and instructions for setting up a slider with book covers in your instance of Primo.
+Code and instructions for setting up a slider with book covers in your instance of Primo BO, as presented at ENUG 2019.
 
 The files in /webserver need to go on your webhosting. Make sure PHP and the PHPSpreadsheet library(https://phpspreadsheet.readthedocs.io/en/latest/) are set up and ready to go. Look for comments beginning with *** for bits you need to change.
 

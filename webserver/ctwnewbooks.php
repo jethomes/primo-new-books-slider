@@ -74,8 +74,7 @@ function makeDisplay($books) { //generate title and cover art with link for each
 				if ($fileSize > 200) { //no scrubs
 				//***Replace the Primo URL and view id below with yours
 					$contents .= '<li class="newbooks"> <a target="_blank" rel="noopener noreferrer" href="https://trincoll-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=' . $reallink . '&context=L&vid=CTWTC">';
-					$contents .= '<img class ="centered" src="' . 'https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=' . $isbn . '/MC.JPG&client=primo' . '"  alt="">';
-					$contents .= "<br />" . $title . "</a></li>";
+					$contents .= '<img class ="centered" src="' . 'https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=' . $isbn . '/MC.JPG&client=primo' . '"  alt="' . $title . '"></a></li>';
 					echo $image . "<br />";
 					continue 2;
 				}
@@ -93,8 +92,7 @@ function makeDisplay($books) { //generate title and cover art with link for each
 					if ($image != "" && $stitle == $sgtitle) { //no blanks, no nonsense
 					    //***Replace the Primo URL and view id below with yours
 						$contents .= '<li class="newbooks"> <a target="_blank" rel="noopener noreferrer" href="https://trincoll-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=' . $reallink . '&context=L&vid=CTWTC">';
-						$contents .= '<img class ="centered" src="' . $image . '"  alt="">';
-						$contents .= "<br />" . $title . "</a></li>";
+						$contents .= '<img class ="centered" src="' . $image . '"  alt="' . $title . '"></a></li>';
 						echo $image . "<br />";
 						continue 2;
 					}

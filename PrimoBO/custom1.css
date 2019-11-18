@@ -5,7 +5,7 @@
 }
 
 #bookbox {
-  height: 200px;
+  height: 250px;
 }
 
 
@@ -17,7 +17,7 @@
 
 prm-search-bar {
   /* padding-bottom: 58.5px; */
-  padding-bottom: 220px;
+  padding-bottom: 260px;
 }
 
 .__xs object#bookbox {

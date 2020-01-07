@@ -55,7 +55,7 @@ function makeDisplay($books) { //generate title and cover art with link for each
 		$title = (string) rtrim($result[2], " /"); //take the title, ditch anything after a space followed by a slash
 		$isbns = explode(';', $result[7]); //so we can loop through all the isbns
 		
-		if ($mms != null && $mms != "MMS Id") { //skip the blanks and header row
+		if (is_numeric($mms)) { //skip the blanks and header row and errors { //skip the blanks and header row
 		
 			echo $title . ": "; //if you run this file from your browser, this will print out titles as they're processed
 			

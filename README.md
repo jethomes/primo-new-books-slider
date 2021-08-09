@@ -7,4 +7,4 @@ The files in /PrimoBO contain the bits you need to add to your custom.js and cus
 
 To set up the Analytics report, you can copy mine from /shared/CTW Consortium: Trinity College/Reports/Collection. There's a screencap included as well.
 
-Live implementation: https://trincoll-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=CTWTC&lang=en_US&sortby=rank
+Live implementation (VE version): https://trincoll-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=CTWTC&lang=en_US&sortby=rank

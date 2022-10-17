@@ -11,7 +11,7 @@ template: '<my-institution-component parent-ctrl="$ctrl.parentCtrl"></my-institu
 //***Replace the link in the data attribute with the link to your own html output
 
 app.controller('MyInstitutionComponentController', ['$scope', function ($scope) {    
-$scope.bookget = function () {        document.getElementById("Content").innerHTML = '<iframe src="https://joelle.domains.trincoll.edu/pnewbooks.html" style="width:100%" id="bookbox";>New books visual display</object>';    };    
+$scope.bookget = function () {        document.getElementById("Content").innerHTML = '<iframe src="https://joelle.domains.trincoll.edu/pnewbooks.html" style="width:100%" id="bookbox";>New books visual display</iframe>';    };    
 $scope.bookget();
 }]);
 

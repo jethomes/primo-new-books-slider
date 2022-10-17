@@ -20,10 +20,10 @@ prm-search-bar {
   padding-bottom: 260px;
 }
 
-.__xs object#bookbox {
+.__xs iframe#bookbox {
 	display: none;
 }
 
-.__sm object#bookbox {
+.__sm iframe#bookbox {
 	display: none;
 }
